@@ -1,0 +1,21 @@
+.add-new-container {
+  max-width: 400px;
+  border: 1px solid grey;
+  padding: 5px;
+  margin: 0 auto;
+  border-radius: 3px;
+  .text-add-new {
+    margin: 10px 0;
+  }
+  .input-data {
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-sub {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+}

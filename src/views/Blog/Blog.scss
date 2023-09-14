@@ -1,0 +1,41 @@
+.btn-add-new {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.blogs-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  .single-blog {
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 10px;
+    max-width: 332px;
+    min-width: 332px;
+    text-align: left !important;
+
+    .title {
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+    .content {
+      padding: 10px 0;
+    }
+  }
+}
+
+.blog-detail {
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 3px;
+  min-height: 100px;
+  margin: 10px;
+  .content {
+    padding-top: 10px;
+  }
+}
