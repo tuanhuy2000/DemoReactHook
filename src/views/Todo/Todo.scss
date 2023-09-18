@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  .content-left {
+    border: 1px solid red;
+    width: 20%;
+    padding: 10px;
+  }
+  .content-right {
+    border: 1px solid green;
+    width: 80%;
+    padding: 10px;
+  }
+}

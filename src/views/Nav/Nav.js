@@ -16,6 +16,12 @@ const Nav = () => {
       <NavLink to="/blog" activeClassName="active">
         Blog
       </NavLink>
+      <NavLink to="/product" activeClassName="active">
+        Product
+      </NavLink>
+      <NavLink to="/otp" activeClassName="active">
+        OTP
+      </NavLink>
     </div>
   );
 };

@@ -10,6 +10,9 @@ import Blog from "./views/Blog/Blog";
 import DetailBlog from "./views/Blog/DetailBlog";
 import AddNewBlog from "./views/AddNewBlog/AddNewBlog";
 import NotFound from "./views/404/NotFound";
+import Product from "./views/Products/Product";
+import "react-image-lightbox/style.css";
+import OTP from "./views/OTP/OTP";
 
 const App = () => {
   let [name, setName] = useState("huy");
@@ -54,7 +57,6 @@ const App = () => {
             </Route>
 
             <Route path="/todo">
-              <p>hello {name}</p>
               <img src={logo} className="App-logo" alt="logo" />
 
               <input
@@ -80,6 +82,12 @@ const App = () => {
             </Route>
             <Route path="/add" exact>
               <AddNewBlog />
+            </Route>
+            <Route path="/product">
+              <Product />
+            </Route>
+            <Route path="/otp">
+              <OTP />
             </Route>
             <Route path="*">
               <NotFound />
